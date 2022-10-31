@@ -1,0 +1,323 @@
+
+.loading
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+z-index: 99999999999;
+overflow: hidden;
+}
+.loading i
+{
+color: white;
+font-size: 55px;
+
+}
+.loading1
+{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 52%;
+    display: none;
+  
+}
+.loading1 i
+{
+color: white;
+font-size: 55px;
+}
+
+
+/*********************************************************************************/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+
+.navigation
+{
+    position: fixed;
+    left: -16%;
+    top: 0;
+    bottom: 0;
+    width: 16%;
+    background-color: black;
+    z-index: 99999999999999999999999999999999999999;
+
+
+}
+.whitelayer
+{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #f8f6f6;
+    width: 4%;
+    z-index: 9999999999999999999999999999999999999999;
+}
+.navigation ul
+ {
+color: white;
+line-height: 50px;
+padding-left: 30px;
+padding-top: 20px;
+ }
+ .navigation li
+ {
+    cursor: pointer;
+ }
+
+ .icons
+ {
+    position: absolute;
+    bottom: 100px;
+    left: 0px;
+    padding-left: 20px;
+ }
+
+ .icons i
+ {
+    color: gray ;
+    padding: 0 10px;
+    cursor: pointer;
+    
+ }
+.baseline
+{
+    position: absolute;
+    bottom: 40px;
+    left: 0px;
+    padding-left: 20px;
+    color: #999 ;
+}
+.whitelayer .fa-times, .whitelayer .fa-align-justify
+
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 25px;
+    cursor: pointer;
+}
+.whitelayer img
+{
+    width: 75%;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+.whitelayer .icons2
+{
+    position: absolute;
+bottom: 30px;
+left: 50%;
+transform: translateX(-50%);
+padding-left: 7px;
+}
+.whitelayer .fa-globe, .whitelayer .fa-share-alt
+{
+    cursor: pointer;
+}
+
+
+/*********************************************************************************/
+
+
+
+.space
+{
+    height: 150px;
+}
+.container
+{
+    width: 75%;
+}
+.meals, .search1, .searches, .meals2,.meals3, .meals4, .areas, .areas2, .areas3, .ingredients, .ingredients2, .ingredients3
+ 
+{
+position: relative;
+overflow: hidden;
+cursor: pointer;
+}
+
+.layer 
+{
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s;
+}
+.layer2
+{
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 1s;
+}
+.meals:hover .layer, .meals2:hover .layer, .meals3:hover .layer, .meals4:hover .layer, .areas2:hover .layer, .ingredients2:hover .layer, .searches:hover .layer
+
+{
+transform: translateY(-100%);
+}
+
+
+/*********************************************************************************/
+
+
+
+.secondpage, .fourthpage
+{
+    position: absolute;
+    top: 0;
+    left: 10%;
+display: none;
+
+}
+
+.secondSection button, .thirdSection button
+
+{
+    background-color:aqua ;
+    border-radius:8px;
+    cursor: text;
+
+}
+
+.thirdSection .source
+{
+    background-color: green;
+}
+.thirdSection .youtube
+{
+    background-color: red;
+}
+.thirdSection a
+{
+    text-decoration: none;
+    color: white;
+    padding: 50px 20px;
+}
+
+#ingredient li {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px ;
+    border-radius: 3px;
+    margin-right: 5px;
+    padding: 5px 5px;
+    margin: 15px 5px;
+
+}
+#tags li {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px ;
+    border-radius: 3px;
+    margin-right: 5px;
+    padding: 5px 5px;
+
+}
+
+
+/*********************************************************************************/
+
+
+.categorypage, .categorypage2, .areapage2, .areapage, .ingredientpage, .ingredientpage2, .contactpage
+{
+    position: absolute;
+    top: 0;
+    left:6%;
+display: none;
+
+}
+
+.searchpage
+{
+   position: absolute;
+   top: 5%;
+display: none;
+}
+
+.categorypage .container, .ingredientpage .container, .ingredientpage2 .container, .categoryinfopage .container
+{
+    width: 85%;
+}
+
+
+.fa-city
+{
+    color: #9e403a;
+}
+
+
+.fa-bowl-food
+{color:#6e9e3a}
+
+.paragraph
+{
+    height: 70px;
+    color: white !important;
+    width: 90%;
+}
+
+
+/*********************************************************************************/
+
+
+
+.search input
+{
+    background-color: black !important;
+    border: transparent;
+    box-shadow: 5px 5px;
+}
+
+
+.input input
+{
+    background-color: black !important;
+    border: transparent;
+    border-radius: 0% !important;
+    box-shadow: 1px 2px 10px #999;
+    margin-bottom: 20px;
+}
+
+.contactpage .container
+{
+    width: 50%;
+
+}
+.submitBtn button
+{
+    background-color: black !important;
+    border: #82242c 1px solid;
+    color: #82242c;
+}
+
+.btn-dark:hover
+{
+    background-color: tomato !important;
+    color: white !important;
+}
+
+.alertname, .alertphone, .alertemail, .alertage, .alertpassword, .alertrepassword
+{
+    display: none;
+}

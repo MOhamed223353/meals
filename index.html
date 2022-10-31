@@ -1,0 +1,231 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,maximum-scale=1"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body>
+    <div class="loading"><i class="fa fa-spinner fa-spin"></i></div>
+    <div class="navigation">
+      <ul class="list-unstyled list">
+        <li id="searchNav">Search</li>
+        <li id="categoriesNav">Categories</li>
+        <li id="areaNav">Area</li>
+        <li id="ingredientsNav">Ingredients</li>
+        <li id="contactNav">Contact Us</li>
+      </ul>
+
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fas fa-globe"></i>
+      </div>
+      <div class="baseline">
+        <h6>Copyright Â© 2019 All Rights Reserved</h6>
+      </div>
+      <div class="whitelayer">
+        <img src="images/logo.png" alt="image" />
+        <div id="icon">
+          <i id="iconss" class="fa fa-align-justify"></i>
+        </div>
+        <div class="icons2">
+          <i class="fas fa-globe pb-3"></i>
+          <i class="fas fa-share-alt"></i>
+        </div>
+      </div>
+    </div>
+    <div class="space"></div>
+    <div class="firstpage">
+        
+   <div class="container">
+        <div class="row gy-4" id="row"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+
+    <div class="container secondpage">
+      <div class="space"></div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="items" id="items">
+            
+          </div>
+        </div>
+        <div class="col-md-8">
+          <div class="items text-white">
+            <div class="firstSection">
+              <h2>Instructions</h2>
+              <div id="instructions"></div>
+              <h6 id="area"></h6>
+              <h6 id="category"></h6>
+            </div>
+            <div class="secondSection">
+              <h2 class="pt-2">Recipes :</h2>
+              <div>
+                <ul class="d-flex  list-unstyled flex-wrap "id="ingredient">
+          
+                </ul>
+              </div>
+            </div>
+            <div class="thirdSection">
+              <h2 class="p-3">Tags:</h2>
+              <div >
+                <ul class="d-flex list-unstyled " id="tags">
+          
+                </ul>
+              </div>
+              <div class="pt-4" id="source">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="categorypage  ">
+      <div class="space"></div>
+
+      <div class="container ">
+        <div class="row  gy-4" id="rowCategory"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+    <div class="categorypage2  ">
+      <div class="space"></div>
+
+      <div class="container ">
+        <div class="row  gy-4" id="rowCategory2"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+
+    <div class="areapage  ">
+      <div class="space"></div>
+
+      <div class="container ">
+        <div class="row  gy-4" id="rowArea"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+    <div class="areapage2  ">
+      <div class="space"></div>
+
+      <div class="container ">
+        <div class="row  gy-4" id="rowArea2"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+
+    <div class="ingredientpage  ">
+      <div class="space"></div>
+
+      <div class="container ">
+        <div class="row  gy-4" id="rowIngredient"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+    <div class="ingredientpage2  ">
+      <div class="space"></div>
+
+      <div class="container ">
+        <div class="row  gy-4" id="rowIngredient2"></div>
+      </div>
+      <div class="space"></div>
+    </div>
+
+    <div class="searchpage w-100">
+      <div class="container ">
+          <div class="row mt-5">
+              <div class="col-md-6">
+                  <div class="search">
+                      <input  placeholder="Search By Name" class="form-control" type="text" name="searchname" id="searchName">
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="search">
+                      <input maxlength="1"  placeholder="Search By First Letter.." class="form-control" type="text" name="searchname" id="searchFirstLetter">
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="space"></div>
+     <div class="d-flex justify-content-end"> <div class="loading1"><i class="fa fa-spinner fa-spin"></i></div></div>
+
+      <div class="container ">
+        <div class="row  gy-4" id="rowSearch"></div>
+      </div>
+      <div class="space"></div>
+              </div>
+
+              <div class="contactpage">
+                <div class="space"></div>
+    
+            <h2 class="text-center text-white pb-3">Contact Us....</h2>
+    
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="input">
+                            <input placeholder="Enter Your Name" class="form-control" type="text" name="name" id="nameInput">
+                        </div>
+                        <div class="alert alertname alert-danger" role="alert">
+                            Special Characters and Numbers not allowed
+    
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input">
+                            <input placeholder="Enter Email" class="form-control" type="text" name="email" id="emailInput">
+                        </div>
+                        <div class="alert alertemail alert-danger" role="alert">
+                            Enter valid email. *Ex: xxx@yyy.zzz
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input">
+                            <input placeholder="Enter Phone" class="form-control" type="text" name="phone" id="phoneInput">
+                        </div>
+                        <div class="alert alertphone alert-danger" role="alert">
+                            Enter valid Phone Number
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input">
+                            <input placeholder="Enter Age" class="form-control" type="text" name="age" id="ageInput">
+                        </div>
+                        <div class="alert alertage alert-danger" role="alert">
+                            Enter valid Age
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input">
+                            <input placeholder="Enter Password" class="form-control" type="password" name="Password" id="passwordInput">
+                        </div>
+                        <div class="alert alertpassword alert-danger" role="alert">
+                            Enter valid password *Minimum eight characters, at least one letter and one number:*
+                          </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="input">
+                            <input placeholder="Enter Repassword" class="form-control" type="password" name="Repassword" id="repasswordInput">
+                        </div>
+                        <div class="alert alertrepassword alert-danger" role="alert">
+                            Enter valid Repassword
+                          </div>
+                    </div>
+                </div>
+              <div class="text-center submitBtn" > <button class="btn btn-dark " disabled id="submitBtn"  >Submit</button></div> 
+            </div>
+        </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script type="Module" src="js/main.js"></script>
+  </body>
+</html>
